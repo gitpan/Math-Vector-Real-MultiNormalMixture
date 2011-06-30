@@ -1,16 +1,17 @@
 --- #YAML:1.0
 name:               Math-Vector-Real-MultiNormalMixture
-version:            0.01
+version:            0.02
 abstract:           Multinormal Mixture distribution
 author:
-    - Salvador Fandino <salva@>
+    - Salvador Fandino <sfandino@yahoo.com>
 license:            unknown
 distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
     ExtUtils::MakeMaker:  0
-requires:  {}
+requires:
+    Math::Vector::Real:  0.06
 no_index:
     directory:
         - t
